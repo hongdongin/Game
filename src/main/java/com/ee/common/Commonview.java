@@ -13,7 +13,7 @@ public class Commonview {
 	private static final String SUFFIX = ".jsp";
 
 	public static void forword(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
+		throws ServletException, IOException {
 		String path = PREFIX + request.getRequestURL() + SUFFIX;
 		RequestDispatcher rd = request.getRequestDispatcher(path);
 		rd.forward(request, response);
@@ -26,7 +26,7 @@ public class Commonview {
 	}
 
 	public static void forwordMessage(HttpServletRequest request, HttpServletResponse response)
-			throws ServletException, IOException {
+		throws ServletException, IOException {
 		String path = "WEB-INF/views/common/message.jsp";
 		RequestDispatcher rd = request.getRequestDispatcher(path);
 		rd.forward(request, response);

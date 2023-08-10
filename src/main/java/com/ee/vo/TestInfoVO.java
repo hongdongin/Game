@@ -4,7 +4,7 @@ public class TestInfoVO {
 
 	private int tinum;
 	private String tiName;
-	private String tidesc;
+	private String tibirth;
 
 	public int getTinum() {
 		return tinum;
@@ -22,17 +22,17 @@ public class TestInfoVO {
 		this.tiName = tiName;
 	}
 
-	public String getTidesc() {
-		return tidesc;
+	public String getTibirth() {
+		return tibirth;
 	}
 
-	public void setTidesc(String tidesc) {
-		this.tidesc = tidesc;
+	public void setTibirth(String tibirth) {
+		this.tibirth = tibirth;
 	}
 
 	@Override
 	public String toString() {
-		return "TestInfoVO [tinum=" + tinum + ", tiName=" + tiName + ", tidesc=" + tidesc + "]";
+		return "TestInfoVO [tinum=" + tinum + ", tiName=" + tiName + ", tibirth=" + tibirth + "]";
 	}
 
 }
